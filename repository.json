@@ -12,11 +12,11 @@
       "versionDate": "2024-10-10T00:00:00Z",
       "downloadURL": "https://dnull.xyz/latest_bs_i",
       "localizedDescription": "Version iOS de Null's Brawl, installable via AltStore PAL.",
-      "iconURL": "https://l-vs.github.io/nullsbrawl-repo/Icon.png",
+      "iconURL": "https://l-vs.github.io/nullsbrawl-repo/icon.png",
       "tintColor": "#7A42F4",
       "screenshotURLs": [],
       "size": 0,
-      "marketplaceID": null
+      "marketplaceID": ""
     }
   ]
 }
