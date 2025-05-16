@@ -1,0 +1,19 @@
+{
+  "name": "Null's Brawl",
+  "identifier": "com.LVS.nullsbrawl",
+  "sourceURL": "https://ton-pseudo.github.io/nullsbrawl-repo/repository.json",
+  "apps": [
+    {
+      "name": "Null's Brawl",
+      "bundleIdentifier": "com.LVS.nullsbrawl",
+      "developerName": "LVS, Null's Team",
+      "subtitle": "Jouez à Null's Brawl facilement",
+      "version": "56.268.2",
+      "downloadURL": "https://dnull.xyz/latest_bs_i",
+      "localizedDescription": "Version iOS de Null's Brawl, installable via AltStore.",
+      "iconURL": "https://ton-pseudo.github.io/nullsbrawl-repo/icon.png",
+      "tintColor": "#7A42F4",
+      "screenshotURLs": []
+    }
+  ]
+}
