@@ -6,9 +6,10 @@
     {
       "name": "Null's Brawl",
       "bundleIdentifier": "com.lvs.nullsbrawl",
-      "developerName": "L-VS, Null's Team",
+      "developerName": "LVS, Null's Team",
       "subtitle": "Jouez à Null's Brawl facilement",
       "version": "56.268.2",
+      "versionDate": "2024-10-10T00:00:00Z",
       "downloadURL": "https://dnull.xyz/latest_bs_i",
       "localizedDescription": "Version iOS de Null's Brawl, installable via AltStore PAL.",
       "iconURL": "https://l-vs.github.io/nullsbrawl-repo/icon.png",
