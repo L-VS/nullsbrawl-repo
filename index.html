@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>News Brawl - Source AltStore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: radial-gradient(circle at top, #8e44ad, #3498db);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            animation: fadeIn 1.2s ease forwards;
+            max-width: 90%;
+            margin: 20px;
+        }
+        .logo {
+            width: 128px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.5s ease;
+        }
+        .logo:hover { transform: scale(1.05) rotate(2deg); }
+
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        p { font-size: 1.1rem; margin-bottom: 30px; opacity: 0.9; }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffffff, #e0e0e0);
+            color: #8e44ad;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+        .icons {
+            margin-top: 10px;
+        }
+        .icons img {
+            height: 24px;
+            margin: 0 8px;
+            vertical-align: middle;
+            opacity: 0.8;
+            transition: transform 0.3s ease;
+        }
+        .icons img:hover {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            p { font-size: 1rem; }
+            .btn { padding: 12px 24px; font-size: 0.9rem; }
+        }
+
+        /* Loader Styles */
+        #loader {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+        .spinner {
+            width: 80px;
+            height: 80px;
+            border: 6px solid rgba(255,255,255,0.2);
+            border-top: 6px solid #ffffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="glass">
+        <img src="icon.png" alt="News Brawl" class="logo">
+        <h1>News Brawl</h1>
+        <p>Découvrez la version ultime de Brawl Stars optimisée par la Null's Team & L-VS. Installez facilement via AltStore PAL.</p>
+
+        <a href="https://dnull.xyz/latest_bs_i" target="_blank" class="btn">📥 Télécharger l’IPA</a>
+        <a href="altstorepal://add-source?url=https://l-vs.github.io/nullsbrawl-repo/repository.json" class="btn">➕ Ajouter à AltStore PAL</a>
+    </div>
+
+    <div class="footer">
+        Powered by L-VS & Null's Team
+        <div class="icons">
+            <img src="icon.png" alt="News Brawl">
+            <img src="https://altstore.io/images/logo.png" alt="AltStore PAL">
+        </div>
+    </div>
+
+    <script>
+        // Loader script
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+            loader.style.opacity = '0';
+            loader.style.visibility = 'hidden';
+        });
+    </script>
+</body>
+</html>
