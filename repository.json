@@ -15,7 +15,8 @@
       "iconURL": "https://l-vs.github.io/nullsbrawl-repo/Icon.png",
       "tintColor": "#7A42F4",
       "screenshotURLs": [],
-      "size": 0
+      "size": 0,
+      "marketplaceID": null
     }
   ]
 }
