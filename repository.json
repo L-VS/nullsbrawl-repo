@@ -26,6 +26,48 @@
       ],
       "size": 0,
       "marketplaceID": "1234567890"
+    },
+    {
+      "name": "Magic Brawl",
+      "bundleIdentifier": "com.magic.brawl",
+      "developerName": "Magic Brawl Team",
+      "subtitle": "Version alternative de Brawl Stars",
+      "version": "47.227",
+      "versionDate": "2024-09-15T00:00:00Z",
+      "downloadURL": "https://files.magic-servers.xyz/mb.ipa",
+      "localizedDescription": "Magic Brawl - Une expérience Brawl Stars modifiée",
+      "iconURL": "https://magicbrawl.gg/images/mb-icon.png",
+      "tintColor": "#42A5F5",
+      "size": 0,
+      "marketplaceID": "2345678901"
+    },
+    {
+      "name": "Retro Brawl",
+      "bundleIdentifier": "com.retro.brawl",
+      "developerName": "Retro Brawl Team",
+      "subtitle": "Retour aux anciennes versions de Brawl Stars",
+      "version": "12.98",
+      "versionDate": "2024-08-20T00:00:00Z",
+      "downloadURL": "https://files.magic-servers.xyz/retrobrawl.ipa",
+      "localizedDescription": "Revivez les anciennes versions de Brawl Stars",
+      "iconURL": "https://magicbrawl.gg/images/rb-icon.png",
+      "tintColor": "#FFA726",
+      "size": 0,
+      "marketplaceID": "3456789012"
+    },
+    {
+      "name": "ReBrawl",
+      "bundleIdentifier": "com.rebrawl.client",
+      "developerName": "ReBrawl Team",
+      "subtitle": "Client alternatif pour Brawl Stars",
+      "version": "27.270",
+      "versionDate": "2024-11-05T00:00:00Z",
+      "downloadURL": "https://dw.malavida.com/SEVnNFg0cm94RjREdXdPaXdIS0RwbVJGcE4yeVRUV2RtYjBwc1ZOOE95b3N2ZkkxRWJRd0JVQzhBSVpBTkRETExQb1JiW/WdZU3hhdFVrMjNwY2RqcGNWbzUwaXRZUGFzQ0NoT0ZaZHpXUUduZ0lhekFrQnUzN2tIRCs4a1hVV2s1NVlsODU2QjIxRW/9KZS9Nc3pKRENHWnA5OEVRbktrdDNDeGtWa0UzQ2gwYXZEMHV4Ty93d0lQeWFGQWlOendEMG9ZR3VnM3BkT3pCRUlJdW1/kS25BV2hmTWFUNkpLZjVUSGkyck9DWEp5VlJwKzVneGxCc1ZsbkljS0VRRTJnbExmT1JSTklCd0VtaEFMeUhOWkl5L3lM/ODlJdFI3K2FYcEs0MDJvaWZnS25UNDNQM3dQbEcxREg0eWhxYkFibGRzRHMvSERQeFRGNW41L0tkUW9HMVBlOExXNjJzM/lhISmc0UG92c3ZFbEJSR1Y3amRTMGovQTBzNGxkZ2RKbStEeitKcDBtSlBxTlhlZUExU096Q1lnMWxyc2xsUDhPR25Gam/NucXRHM2UwaUFvTHE0aVdKeHVGUVAyajZ4b1BmdmE3RGJ6SGFYOGlBYjdzVlFjNXp6b2QwZEk0YkU4bmZBWmJhQkJLUWh/0RTRoQUhvSERpMXNsNTVmMllzazliS1VPbzZSbEFUbXlpWW95ZmxOYzRiNkZkcVpHRXY5WXM3MG5uZkVBTm1kamlNPQ==/f45f333ee11c86c3",
+      "localizedDescription": "Client ReBrawl pour iOS avec fonctionnalités étendues",
+      "iconURL": "https://imag.malavida.com/mvimgbig/download-s/rebrawl-26208-0.jpg",
+      "tintColor": "#66BB6A",
+      "size": 0,
+      "marketplaceID": "4567890123"
     }
   ]
 }
